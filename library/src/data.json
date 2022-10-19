@@ -1,0 +1,98 @@
+[
+    {
+        "_id": "618a75abefb465359670fd1c",
+        "name": "Devolution",
+        "author": "Max Brooks",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Devolution.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a7602efb465359670fd21",
+            "name": "Horror"
+        }
+    },
+    {
+        "_id": "618a76ebefb465359670fd29",
+        "name": "Filled with Fire and Light",
+        "author": "Elie Wiesel",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Filled%20with%20Fire%20and%20Light.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a76aeefb465359670fd25",
+            "name": "History"
+        }
+    },
+    {
+        "_id": "618a7789efb465359670fd2d",
+        "name": "Harry Potter and the Goblet of Fire",
+        "author": "Joanne Rowling",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Harry%20Potter.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "616743073b3d39971f0e94c6",
+            "name": "Fantasy"
+        }
+    },
+    {
+        "_id": "618a78aeefb465359670fd3f",
+        "name": "Little Women",
+        "author": "Louisa May Alcott ",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Little%20Women.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "61671fea3b3d39971f0e94c4",
+            "name": "Classic"
+        }
+    },
+    {
+        "_id": "618a7945efb465359670fd43",
+        "name": "Midnight in Washington",
+        "author": "Adam Schiff",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Midnight%20in%20Washington.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a76aeefb465359670fd25",
+            "name": "History"
+        }
+    },
+    {
+        "_id": "618a7a20efb465359670fd4b",
+        "name": "Rebel Homemaker",
+        "author": "Drew Barrymore",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Rebel%20Homemaker.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a79bcefb465359670fd44",
+            "name": "Biography"
+        }
+    },
+    {
+        "_id": "618a7b59efb465359670fd57",
+        "name": "The Roommate",
+        "author": "Rosie Danan",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/The%20Roommate.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a7a7befb465359670fd4f",
+            "name": "Romance"
+        }
+    },
+    {
+        "_id": "618a7befefb465359670fd5e",
+        "name": "Will",
+        "author": "Will Smith",
+        "image": "https://dev-fidweb.s3.eu-central-1.amazonaws.com/tasks/books/Will.jpeg",
+        "createOn": "2021-10-09T21:00:00.000Z",
+        "lastUpdateOn": "2021-10-09T21:00:00.000Z",
+        "genre": {
+            "_id": "618a79bcefb465359670fd44",
+            "name": "Biography"
+        }
+    }
+]

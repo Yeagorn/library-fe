@@ -1,0 +1,769 @@
+body {
+    font-family: Montserrat;
+}
+
+.Main {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 95.91vw;
+    height: 95.91vh;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    opacity: 1;
+}
+
+.pcPanel {
+    position: relative;
+    top: -100%;
+    height: 100%;
+    width: 50.3%;
+    background-color: transparent;
+}
+
+.pcLogo {
+    position: relative;
+    top: 10vh;
+    left: 13.5vw;
+    width: 20vw;
+    height: 20vh;
+    opacity: 1;
+}
+
+.pcLogin {
+    position: relative;
+    left: 48.21vw;
+    width: 47.6vw;
+    height: 95.91vh;
+    background: transparent url('../img/Group\ 19445.png') 0% 0% no-repeat padding-box;
+}
+
+.pcText {
+    position: relative;
+    margin-left: 8vw;
+    margin-top:3vh;
+    top: 10vh;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal 300 10px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    opacity: 1;
+}
+
+.pcPanel input {
+    position: relative;
+    top: 10vh;
+    height: 3vh;
+    width: 32vw;
+    margin-top: 0vh;
+    margin-left: 8vw;
+    border: 0.5px solid var(--unnamed-color-0d242e);
+    border: 0.5px solid #0D242E;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.pcView {
+    width: 3vw;
+    height: 3vh;
+    position: absolute;
+    background: url("../img/view.svg") no-repeat right top;
+    background-position: center;
+    border: 0;
+    bottom: 28.9vh;
+    right: 7.5vw;
+    cursor: pointer;
+}
+
+.pcView.active {
+    width: 3vw;
+    height: 3vh;
+    position: absolute;
+    background: url("../img/view-active.svg") no-repeat right top;
+    background-position: center;
+    border: 0;
+    bottom: 28.9vh;
+    right: 7.5vw;
+    cursor: pointer;
+}
+
+.pc2View {
+    width: 3vw;
+    height: 3vh;
+    position: absolute;
+    background: url("../img/view.svg") no-repeat right top;
+    background-position: center;
+    border: 0;
+    bottom: 17.3vh;
+    right: 7.5vw;
+    cursor: pointer;
+}
+
+.pc2View.active {
+    width: 3vw;
+    height: 3vh;
+    position: absolute;
+    background: url("../img/view-active.svg") no-repeat right top;
+    background-position: center;
+    border: 0;
+    bottom: 17.3vh;
+    right: 7.5vw;
+    cursor: pointer;
+}
+
+.welcomeText {
+    position: relative;
+    margin-top: 15vh;
+    left: 0vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: center;
+    font: normal normal bold 10px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#recPwd { 
+    position: relative;
+    top: 13vh;
+    left: -8vw;
+    text-decoration: var(--unnamed-decoration-underline);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1076b5);
+    text-align: left;
+    font: normal normal normal 10px/14px Montserrat;
+    opacity: 1;
+}
+
+.pcSubmit {
+    position: relative;
+    box-sizing: padding-box;
+    padding: 0;
+    outline:none;
+    top: 20vh;
+    left: 15vh;
+    height:4vh;
+    width: 32.5vw;
+    background: var(--unnamed-color-08c642) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 10px/16px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 10px/16px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pcSubmit.active {
+    position: relative;
+    box-sizing: padding-box;
+    padding: 0;
+    outline:none;
+    top: 20vh;
+    left: 15vh;
+    height:4vh;
+    width: 32.5vw;
+    background: var(--unnamed-color-08c642) 0% 0% no-repeat padding-box;
+    background: #08C642 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 10px/16px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 10px/16px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pcNoAccount {
+    position: relative;
+    top: 25vh;
+    left: 14vw;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.pcNoAccount.acc {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* REGISTER PANEL */
+
+.regPanel {
+    position: relative;
+    top: -100%;
+    height: 100%;
+    width: 50.3%;
+    background-color: transparent;
+}
+
+.regPanel input {
+    position: relative;
+    top: 5vh;
+    height: 3vh;
+    width: 32vw;
+    margin-top: -5vh;
+    margin-left: 8vw;
+    border: 0.5px solid var(--unnamed-color-0d242e);
+    border: 0.5px solid #0D242E;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.regText {
+    position: relative;
+    margin-left: 8vw;
+    margin-top:0vh;
+    top: 5vh;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal 300 10px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    opacity: 1;
+}
+
+.regText.password {
+    margin-top: 5vh;
+}
+
+.regWelcomeText {
+    position: relative;
+    margin-top: 15vh;
+    left: 0vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: center;
+    font: normal normal bold 12px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.underWelcomeText {
+    position: relative;
+    left: 0vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: center;
+    font: normal normal bold 10px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.regSubmit {
+    position: relative;
+    box-sizing: padding-box;
+    padding: 0;
+    outline:none;
+    top: 13vh;
+    left: 15vh;
+    height:4vh;
+    width: 32.5vw;
+    background: var(--unnamed-color-08c642) 0% 0% no-repeat padding-box;
+    background: #08C642 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 10px/16px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 10px/16px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.pcAccount {
+    position: relative;
+    top: 15vh;
+    left: 17vw;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font-size: 10px;
+    font-family: Montserrat Light;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.pcAccount.acc {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    font-family: Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* LIBRARY CSS */
+
+.libBooks {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 95.91vw;
+    height: 91vh;
+
+    overflow:auto;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.libNavBar {
+    position: relative;
+    height:4vh;
+    width: 100%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.libLogo {
+    position: relative;
+    top: 0.5vh;
+    left:1vw;
+    height:18px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.libProfile {
+    position: relative;
+    top: 0.5vh;
+    left:91vw;
+    height:18px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.libBut {
+    position: relative;
+    top: .3vh;
+    left: 33vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal bold 12px/18px Montserrat;
+    line-height: 8px;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 3vw;
+    padding-bottom: 4px;
+}
+
+.libBut.active {
+    border-bottom: 3px solid var(--unnamed-color-08c642);
+    opacity: 1;
+}
+
+.libRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    height: 100%;
+}
+
+.libKniga {
+    width: 46vw;
+    height: 21vh;
+    margin-left: 1.2vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000017;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.libPic {
+    position: relative;
+    width: 7vw;
+    border-radius: 5px;
+    height: 21vh;
+    opacity: 1;
+}
+
+.libName {
+    position: relative;
+    margin-left: 8vw;
+    top: -22vh;
+    
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.libAuthor {
+    position: relative;
+    top: -23vh;
+    left: 8vw;
+    width: max-content;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1076b5);
+    text-align: left;
+    font: normal normal bold 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #1076B5;
+    opacity: 1;
+}
+
+.libGC {
+    position: relative;
+    top: -24vh;
+    left: 8vw;
+    width: max-content;
+}
+
+.libAll {
+    position: relative;
+    margin-left: 2vh;
+}
+
+.libHeading {
+    height: 6vh;
+}
+
+.libSearch input {
+    position: relative;
+    bottom: 5.9vh;
+    left: 23vh;
+    width: 20vw;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 0.2px solid var(--unnamed-color-0d242e);
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.libB {
+    position: relative;
+    height: 21vh;
+    width: 1.5vw;
+    left: 44.5vw;
+    top: -45.5vh;
+    text-align: left;
+    padding: 3px;
+    color: white;
+    background: var(--unnamed-color-1076b5) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000017;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.libGoBack { 
+    position: relative;
+    margin-left: 1vw;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.libBookImage { 
+    position: relative;
+    top: 5vh;
+    left: 10vw;
+    width: 31vw;
+    height: 84vh;
+    background: transparent url('../img/Mask Group 30.png') center center/contain no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    opacity: 1;
+}
+
+.libBookInfo {
+    position: relative;
+    top: -70vh;
+    left: 41vw;
+    width: 48vw;
+    height: 50vh;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.libBookTitle {
+    height: 5vh;
+    width: 48vw;
+    background: var(--unnamed-color-08c642) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.libBookTitle h1 {
+    position: relative;
+    top: 1vh;
+    margin-left: 2vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.libBookAuthor {
+    margin-left: 2vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1076b5);
+    text-align: left;
+    opacity: 1;
+}
+
+.libBookGenre {
+    margin-left: 2vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal normal 18px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+}
+
+.libBookCU {
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+}
+
+.libBookShort h1 {
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal bold 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    opacity: 1;
+}
+
+.libBookDesc {
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+    font: var(--unnamed-font-style-normal) normal 5px 10px/var(--unnamed-line-spacing-10) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    font-weight: 10px;
+    text-align: left;
+    opacity: 1;
+}
+
+/* SETTINGS CSS */
+
+.setNavBar {
+    position: relative;
+    height:4vh;
+    width: 100%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.setLogo {
+    position: relative;
+    top: 0.5vh;
+    left:2vw;
+    height:18px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.setProfile {
+    position: relative;
+    top: 0.5vh;
+    left:90vw;
+    height:18px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.setBut {
+    position: relative;
+    top: .2vh;
+    left: 33vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal bold 12px/18px Montserrat;
+    line-height: 8px;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 3vw;
+    padding-bottom: 4px;
+}
+
+.setBut.active {
+    border-bottom: 3px solid var(--unnamed-color-08c642);
+    opacity: 1;
+}
+
+.setGeneral {
+    display: inline-block; 
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    float: left;
+    width: 47vw;
+    height: 91vh;
+    margin-right: 2vw;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.setBook {
+    position: relative;
+    top: -89vh;
+    left: 51vw;
+    width: 46vw;
+    height: 91vh;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00347026;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.setG {
+    display: inline-block;
+    position: relative;
+    left: 1vw;
+    float: left;
+    margin-right: 1vw;
+}
+
+.setG p {
+    display: inline-block;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    font: normal normal 600 12px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #0D242E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.setG span {
+    display: inline-block;
+    position: relative;
+    top: -0.5vh;
+    height: 0vh;
+    margin-left: 1vw;
+
+    border: 0.1px solid #1076B5;
+    opacity: 1;
+}
+
+.setGeneral h1 {
+    position: relative;
+    left: 0.7vw;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d242e);
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.setG img {
+    display: inline-block;
+    position: relative;
+    top: 1vh;
+    left: 0vw;
+}
+
+.sba {
+    position: relative;
+    top: -6vh;
+    left: 36vw;
+    width: 10vw;
+
+    background: var(--unnamed-color-08c642) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    border: 0;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
